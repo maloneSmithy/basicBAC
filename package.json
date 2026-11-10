@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.mjs"
+    "dev":"nodemon server.mjs",
+    "start": "node server.mjs",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "format":"prettier . --write"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
