@@ -19,7 +19,6 @@ app.get('/products', (req, res)=> {
 
 });
 
-
 //listing
 const PORT=3000
 
